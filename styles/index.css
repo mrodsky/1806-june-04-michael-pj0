@@ -1,0 +1,19 @@
+/* * {
+  border: 2px solid black
+} */
+
+h1 {
+  text-align: center;
+  margin: auto;
+  background-color: #110331;
+  color: white;
+}
+.bestsell {
+  display: inline-block;
+  border: auto;
+  text-align: center;
+}
+
+.btn btn-outline-secondary{
+width: 70%;
+}
