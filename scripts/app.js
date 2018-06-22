@@ -16,11 +16,11 @@
   })
 
   removeButton.addEventListener('click', () => {
-    var quantityReal = document.querySelector("span[name='stock1']").innerHTML;
+    var quantityReal = document.querySelector("div[name='stock1']").innerHTML;
     var temp = Number(quantityReal);
     temp -= Number(document.querySelector("input[name='stock1Input']").value);
     console.log('this is in add button: ' + quantityReal + " " +temp);
-    document.querySelector("span[name='stock1']").innerHTML = temp;
+    document.querySelector("div[name='stock1']").innerHTML = temp;
   })
 }());
 
