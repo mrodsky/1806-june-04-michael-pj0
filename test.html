@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="assets/styles/index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+
+  <title>Mikey Bookworm</title>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navigation</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="C:\Revature\pj0\index.html">Add/Remove Books
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="C:\Revature\pj0\prices.html">Pricing</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header>
+    <h1 style="color: white;" ;>Mikey Bookworm</h1>
+
+  </header>
+  <main>
+    <h2 class="container">Best Seller's
+      <section class="bestsell">
+        <button class="btn btn-success" type="button" name="addBookBtn">Add Book</button>
+        <button class="btn btn-danger" type="button">Remove Book</button>
+      </section>
+    </h2>
+    <hr style="width:90%;  border: 2px solid black;">
+    <form style="width:800px" align="center">
+      <div class="row">
+        <div class="col-6">
+          <label>Title: </label>
+        </div>
+        <div class="col-6">
+          <input class="form-control" name="inputTitle" />
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="col-6">
+            <label>Author: </label>
+          </div>
+          <div class="col-6">
+            <input class="form-control" name="inputAuthor" />
+          </div>
+        </div>
+
+      <div class="row">
+          <div class="col-6">
+            <label>Stock: </label>
+          </div>
+          <div class="col-6">
+            <input class="form-control" type="number" name="inputStock" />
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+              <label>Price: </label>
+            </div>
+            <div class="col-6">
+              <input class="form-control" type="number" name="inputPrice" />
+            </div>
+          </div>
+    </form>
+    <hr style="width:90%;  border: 2px solid black;">
+
+
+    <figure class="bestsell" name="booksPage">
+      <form>
+        <img src="img/client.jpg" alt="">
+        <figcaption>An Innocent Client</figcaption>
+        <span class="author">Scott Prat</span>
+        <div class="row">
+          <div class="col-8" align="left">
+            <p>Current Stock: </p>
+          </div>
+          <div class="col-4" align="right">
+            <span name="stock1" class="getMe">20</span>
+          </div>
+        </div>
+        <p class="stock">Price: $(placeholder)</p>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-success" type="button" name="stock1Add">Add!</button>
+            <button class="btn btn-danger" type="button" name="stock1Remove">Remove!</button>
+          </div>
+          <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;"
+            name="stock1Input"> </div>
+      </form>
+    </figure>
+
+    <br>
+    <br>
+
+
+
+    <div class="container">
+      <section id="face">
+        <a href="https://twitter.com" class="col-sm-3">
+          <i class="fab fa-twitter fa-5x"></i>
+        </a>
+      </section>
+
+      <section id="insta">
+        <a href="https://facebook.com" class="col-sm-5">
+          <i class="fab fa-facebook-square fa-5x"></i>
+        </a>
+      </section>
+
+      <section id="twit">
+        <a href="https://instagram.com" class="col-sm-10">
+          <i class="fab fa-instagram fa-5x col-sm-12"></i>
+        </a>
+      </section>
+    </div>
+
+
+  </main>
+
+  <footer class="text-center">
+    <small class="text-center" style="background-color:#110331"> copyright &copy; 2018 Michael Rodsky, all rights reserved</small>
+  </footer>
+
+
+  <script src="scripts/app.js"></script>
+</body>
+
+</html>

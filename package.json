@@ -1,0 +1,23 @@
+{
+  "name": "pj0",
+  "version": "1.0.0",
+  "description": "## about us  Mikey's Bookworm provides low cost books and amazing customer service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js && node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrodsky/1806-june-04-michael-pj0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrodsky/1806-june-04-michael-pj0/issues"
+  },
+  "homepage": "https://github.com/mrodsky/1806-june-04-michael-pj0#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

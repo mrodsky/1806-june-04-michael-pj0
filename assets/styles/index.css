@@ -1,7 +1,6 @@
 /* * {
   border: 2px solid black
 } */
-
 body {
   font-family: Arial, Helvetica, sans-serif
 }
@@ -11,30 +10,43 @@ h1 {
   background-color: #110331;
   color: white;
 }
+span{
+  display:block;
+}
+
+.qty {
+  display:inline-block;
+}
+
+.price{
+  display:inline-block;
+}
 
 .bestsell {
   display: inline-block;
   border: auto;
   text-align: center;
-}
-.face {
+} 
+.social {
   display: inline-block;
-  padding-left: 520px;
+  border: 100%;
+  padding: auto;
 }
-.insta {
+ #face {
   display: inline-block;
-  padding-left: 585px;
-  
+  padding: auto;
 }
-.twit {
+#insta {
   display: inline-block;
-  padding-left: 7px;
+  padding: auto;   
 }
-
+#twit {
+  display: inline-block;
+  padding: auto;
+}  
 .btn btn-outline-secondary{
 width: 20%;
 }
-
 footer *{
   display: block;
   width: 100%;
