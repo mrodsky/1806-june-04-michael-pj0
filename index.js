@@ -1,2 +1,2 @@
-require('./scripts/server.js');
+//require('./scripts/server.js');
 require('./express.js');
