@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <link rel="stylesheet" href="/assets/styles/index.css">
+  <link rel="stylesheet" href="assets/styles/index.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
@@ -40,7 +40,7 @@
   </nav>
 
   <header>
-    <h1 style="color: white;" ;>Mikey Bookworm</h1>
+    <h1 style="color: white;">Mikey Bookworm</h1>
 
   </header>
   <main>
@@ -49,7 +49,7 @@
         <button class="btn btn-success" type="button">Add Book</button>
         <button class="btn btn-danger" type="button">Remove Book</button>
       </section>
-    </h2>
+    </h2><hr style="width:90%;  border: 1.5px solid black;">
 
 
     <figure class="bestsell">
@@ -58,10 +58,11 @@
         <figcaption>An Innocent Client</figcaption>
         <span class="author">Scott Prat</span>
 
-        <p class="qty">Current Stock: </p>
+       <p class="qty">Current Stock: </p>
 
-                    <div name="stock1" class="getMe">20</div>
-        <p class="stock">Price: $(placeholder)</p>
+                    <div name="stock1" class="getMe">20</div><br>
+        <p class="price">$ </p>
+                    <div name="price1" class="getMe">19.99</div>
         <div class="input-group mb-3">
           <div class="input-group-prepend">
             <button class="btn btn-success" type="button" name="stock1Add">Add!</button>
@@ -75,57 +76,68 @@
       <img src="assets/img/Noble.jpg" alt="">
       <figcaption>Nobel Beginnings</figcaption>
       <span class="author">L.T. Ryan</span>
-      <p class="qty">Current Stock: (placeholder)</p>
-      <p class="stock">Price: $(placeholder)</p>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <button class="btn btn-success" type="button">Add</button>
-          <button class="btn btn-danger" type="button">Remove</button>
+       <p class="qty">Current Stock: </p>
+
+                    <div name="stock2" class="getMe">20</div><br>
+        <p class="price">$ </p>
+                    <div name="price2" class="getMe">19.99</div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-success" type="button" name="stock2Add">Add!</button>
+            <button class="btn btn-danger" type="button" name="stock2Remove">Remove!</button>
         </div>
-        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;">
-      </div>
+<input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;" name="stock2Input">      </div>
     </figure>
 
     <figure class="bestsell">
       <img src="assets/img/greekmyth.jpg" alt="">
       <figcaption>Greek Myths</figcaption>
       <span class="author">Ingri d'Aulaire</span>
-      <p class="qty">Current Stock: (placeholder)</p>
-      <p class="stock">Price: $(placeholder)</p>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <button class="btn btn-success" type="button">Add</button>
-          <button class="btn btn-danger" type="button">Remove</button>
+       <p class="qty">Current Stock: </p>
+
+                    <div name="stock3" class="getMe">20</div><br>
+        <p class="price">$ </p>
+                    <div name="price3" class="getMe">19.99</div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-success" type="button" name="stock3Add">Add!</button>
+            <button class="btn btn-danger" type="button" name="stock3Remove">Remove!</button>
         </div>
-        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;"> </div>
-    </figure>
+<input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;" name="stock3Input"> </div>
+   </figure>
 
     <figure class="bestsell">
       <img src="assets/img/killingss.jpg" alt="">
       <figcaption>Killing the SS</figcaption>
       <span class="author">Bill O'reilly</span>
-      <p class="qty">Current Stock: (placeholder)</p>
-      <p class="stock">Price: $(placeholder)</p>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <button class="btn btn-success" type="button">Add</button>
-          <button class="btn btn-danger" type="button">Remove</button>
+      <p class="qty">Current Stock: </p>
+
+                    <div name="stock4" class="getMe">20</div><br>
+        <p class="price">$ </p>
+                    <div name="price4" class="getMe">19.99</div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-success" type="button" name="stock4Add">Add!</button>
+            <button class="btn btn-danger" type="button" name="stock4Remove">Remove!</button>
         </div>
-        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;"> </div>
+        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;" name="stock4Input"> </div>
     </figure>
 
     <figure class="bestsell">
       <img src="assets/img/lvgirl.jpg" alt="">
       <figcaption>Las Vegas Girl</figcaption>
       <span class="author">Lesile Wolf</span>
-      <p class="qty">Current Stock: (placeholder)</p>
-      <p class="stock">Price: $(placeholder)</p>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <button class="btn btn-success" type="button">Add</button>
-          <button class="btn btn-danger" type="button">Remove</button>
+     <p class="qty">Current Stock: </p>
+
+                    <div name="stock5" class="getMe">20</div><br>
+        <p class="price">$ </p>
+                    <div name="price5" class="getMe">19.99</div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-success" type="button" name="stock5Add">Add!</button>
+            <button class="btn btn-danger" type="button" name="stock5Remove">Remove!</button>
         </div>
-        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;">
+       <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;" name="stock5Input">
       </div>
     </figure>
 
@@ -133,14 +145,17 @@
       <img src="assets/img/mother.jpg" alt="">
       <figcaption>The Mother's Day Mishap</figcaption>
       <span class="author">Kathi Daley</span>
-      <p class="qty">Current Stock: (placeholder)</p>
-      <p class="stock">Price: $(placeholder)</p>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <button class="btn btn-success" type="button">Add</button>
-          <button class="btn btn-danger" type="button">Remove</button>
+      <p class="qty">Current Stock: </p>
+
+                    <div name="stock6" class="getMe">20</div><br>
+        <p class="price">$ </p>
+                    <div name="price6" class="getMe">19.99</div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-success" type="button" name="stock6Add">Add!</button>
+            <button class="btn btn-danger" type="button" name="stock6Remove">Remove!</button>
         </div>
-        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;">
+    <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;" name="stock6Input">
       </div>
     </figure>
 
@@ -148,14 +163,17 @@
       <img src="assets/img/outside.jpg" alt="">
       <figcaption>The Outsiders</figcaption>
       <span class="author">S.E Winton</span>
-      <p class="qty">Current Stock: (placeholder)</p>
-      <p class="stock">Price: $(placeholder)</p>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <button class="btn btn-success" type="button">Add</button>
-          <button class="btn btn-danger" type="button">Remove</button>
+      <p class="qty">Current Stock: </p>
+
+                    <div name="stock7" class="getMe">20</div><br>
+        <p class="price">$ </p>
+                    <div name="price7" class="getMe">19.99</div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-success" type="button" name="stock7Add">Add!</button>
+            <button class="btn btn-danger" type="button" name="stock7Remove">Remove!</button>
         </div>
-        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:20px;">
+        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;" name="stock7Input">
       </div>
     </figure>
 
@@ -164,14 +182,17 @@
       <img src="assets/img/screwtape.jpg" alt="">
       <figcaption>The Screwtape Letters</figcaption>
       <span class="author">C.S Lewis</span>
-      <p class="qty">Current Stock: (placeholder)</p>
-      <p class="stock">Price: $(placeholder)</p>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <button class="btn btn-success" type="button">Add</button>
-          <button class="btn btn-danger" type="button">Remove</button>
+    <p class="qty">Current Stock: </p>
+
+                    <div name="stock8" class="getMe">20</div><br>
+        <p class="price">$ </p>
+                    <div name="price8" class="getMe">19.99</div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-success" type="button" name="stock8Add">Add!</button>
+            <button class="btn btn-danger" type="button" name="stock8Remove">Remove!</button>
         </div>
-        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:20px;">
+        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;" name="stock8Input">
       </div>
     </figure>
 
@@ -179,14 +200,17 @@
       <img src="assets/img/somethingw.jpg" alt="">
       <figcaption>Something Wonderful</figcaption>
       <span class="author">Todd Purdam</span>
-      <p class="qty">Current Stock: </p>
-      <p class="stock">Price: </p>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <button class="btn btn-success" type="button">Add</button>
-          <button class="btn btn-danger" type="button">Remove</button>
+    <p class="qty">Current Stock: </p>
+
+                    <div name="stock9" class="getMe">20</div><br>
+        <p class="price">$ </p>
+                    <div name="price9" class="getMe">19.99</div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-success" type="button" name="stock9Add">Add!</button>
+            <button class="btn btn-danger" type="button" name="stock9Remove">Remove!</button>
         </div>
-        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:20px;">
+        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;" name="stock9Input">
       </div>
     </figure>
 
@@ -194,14 +218,17 @@
       <img src="assets/img/prettylittle.jpg" alt="">
       <figcaption>Pretty Little Things</figcaption>
       <span class="author">T.M.E Walsh</span>
-      <p class="qty">Current Stock: (placeholder)</p>
-      <p class="stock">Price: $ (placeholder)</p>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <button class="button" type="button" name="myBtn" id="myBtn">Add</button>
-          <button class="btn btn-danger" type="button">Remove</button>
+    <p class="qty">Current Stock: </p>
+
+                    <div name="stock10" class="getMe">20</div><br>
+        <p class="price">$ </p>
+                    <div name="price10" class="getMe">19.99</div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-success" type="button" name="stock10Add">Add!</button>
+            <button class="btn btn-danger" type="button" name="stock10Remove">Remove!</button>
         </div>
-        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width: 10px;">
+        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;" name="stock10Input">
       </div>
     </figure>
 
@@ -209,29 +236,36 @@
       <img src="assets/img/oldcats.jpg" alt="">
       <figcaption>Practical Book of Cats</figcaption>
       <span class="author">T.S Eliot</span>
-      <p class="qty">Current Stock: (placeholder)</p>
-      <p class="stock">Price: $(placeholder)</p>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <button class="btn btn-success" type="button">Add</button>
-          <button class="btn btn-danger" type="button">Remove</button>
+    <p class="qty">Current Stock: </p>
+
+                    <div name="stock11" class="getMe">20</div><br>
+        <p class="price">$ </p>
+                    <div name="price11" class="getMe">19.99</div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-success" type="button" name="stock11Add">Add!</button>
+            <button class="btn btn-danger" type="button" name="stock11Remove">Remove!</button>
         </div>
-        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;"> </div>
+        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;" name="stock11Input">
+        </div>
     </figure>
 
-
+    
     <figure class="bestsell">
       <img src="assets/img/shadowkissed.jpg" alt="">
       <figcaption>Shadow Kissed</figcaption>
       <span class="author">Sarah Piper</span>
-      <p class="qty">Current Stock: (placeholder)</p>
-      <p class="stock">Price: $(placeholder)</p>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <button class="btn btn-success" type="button">Add</button>
-          <button class="btn btn-danger" type="button">Remove</button>
+     <p class="qty">Current Stock: </p>
+
+                    <div name="stock12" class="getMe">20</div><br>
+        <p class="price">$ </p>
+                    <div name="price12" class="getMe">19.99</div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-success" type="button" name="stock12Add">Add!</button>
+            <button class="btn btn-danger" type="button" name="stock12Remove">Remove!</button>
         </div>
-        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;">
+       <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;" name="stock12Input">
       </div>
     </figure>
     <hr>
@@ -264,7 +298,7 @@
   </footer>
 
 
-  <script src="scripts/app.js"></script>
+  <script src="scripts/modqty.js"></script>
 </body>
 
 </html>
