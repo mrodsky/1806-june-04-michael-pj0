@@ -13,7 +13,9 @@ h1 {
 span{
   display:block;
 }
-
+.getMe{
+  display: inline;
+}
 .qty {
   display:inline-block;
 }
