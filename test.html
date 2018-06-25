@@ -98,22 +98,39 @@
         <span class="author">Scott Prat</span>
         <div class="row">
           <div class="col-8" align="left">
-            <p>Current Stock: </p>
-          </div>
-          <div class="col-4" align="right">
-            <span name="stock1" class="getMe">20</span>
-          </div>
-        </div>
-        <p class="stock">Price: $(placeholder)</p>
+            <p class="qty">Current Stock: </p>
+
+                    <div name="stock" class="getMe">20</div><br>
+        <p class="price">$ </p>
+                    <div name="price" class="getMe">19.99</div>
         <div class="input-group mb-3">
           <div class="input-group-prepend">
-            <button class="btn btn-success" type="button" name="stock1Add">Add!</button>
-            <button class="btn btn-danger" type="button" name="stock1Remove">Remove!</button>
+            <button class="btn btn-success" type="button" name="stockAdd">Add!</button>
+            <button class="btn btn-danger" type="button" name="stockRemove">Remove!</button>
           </div>
           <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;"
-            name="stock1Input"> </div>
+            name="stockInput"> </div>
       </form>
     </figure>
+
+    <figure class="bestsell">
+      <img src="assets/img/Noble.jpg" alt="">
+      <figcaption>Nobel Beginnings</figcaption>
+      <span class="author">L.T. Ryan</span>
+       <p class="qty">Current Stock: </p>
+
+                    <div name="stock" class="getMe">20</div><br>
+        <p class="price">$ </p>
+                    <div name="price" class="getMe">19.99</div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-success" type="button" name="stockAdd">Add!</button>
+            <button class="btn btn-danger" type="button" name="stockRemove">Remove!</button>
+        </div>
+  <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" style="width:10px;"
+            name="stockInput">      </div>
+    </figure>
+
 
     <br>
     <br>
@@ -147,8 +164,8 @@
     <small class="text-center" style="background-color:#110331"> copyright &copy; 2018 Michael Rodsky, all rights reserved</small>
   </footer>
 
-
-  <script src="scripts/app.js"></script>
+ <script src="scripts/apptest.js"></script>
+  {# <script src="scripts/app.js"></script> #}
 </body>
 
 </html>
