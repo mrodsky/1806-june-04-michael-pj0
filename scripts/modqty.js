@@ -8,6 +8,7 @@
 //start of button 1
   var addButton1 = document.querySelector("button[name='stock1Add']");
   var removeButton1 = document.querySelector("button[name='stock1Remove']");
+
     addButton1.addEventListener('click', () => {
     var quantityReal = document.querySelector("div[name='stock1']").innerHTML;
     var temp = Number(quantityReal);
@@ -328,7 +329,7 @@ var addButton5 = document.querySelector("button[name='stock5Add']");
   })
   //end of button 12
   //end of button sequence. 
-}());
+}());        //end of self invoke
 
   // })
   // (function () {
