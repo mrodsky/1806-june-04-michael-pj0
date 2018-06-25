@@ -7,8 +7,9 @@ console.log(__dirname);
 //app.use(express.static(path.join(__dirname, '../assets/styles/index.css'))); //serves static img and css
 
 app.use('/assets', express.static('assets'));
-app.use('/assets', express.static('assets/img'));
-app.use('/assets', express.static('assets/scripts'));
+app.use('/assets', express.static('img'));
+app.use('/assets', express.static('scripts'));
+
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html')); //handler for index
 });
@@ -17,4 +18,4 @@ app.get('/', (req, res) => {
 //   res.sendFile(path.join(__dirname, '../prices.html')); //handler for prices 
 // });
 
-app.listen(5000);  // listner @ port 9999
+app.listen(5000);  // listner @ port 5k
